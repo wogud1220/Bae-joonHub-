@@ -9,10 +9,7 @@ typedef struct node {
 	struct node* right;
 }node;
 
-//node_pointer tree;
-
 struct node* tree;
-
 
 node* create(char ch)
 {
