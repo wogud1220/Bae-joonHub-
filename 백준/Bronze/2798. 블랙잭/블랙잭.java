@@ -13,8 +13,8 @@ public class Main {
         }//입력 다 받고
         int sum = 0;
         int max = 0;
-        for (int i = 0; i < N; i++) {
-            for (int j = i + 1; j < N; j++) {
+        for (int i = 0; i < N-2; i++) {
+            for (int j = i + 1; j < N-1; j++) {
                 for (int k = j + 1; k < N; k++) {
                     sum = arr[i] + arr[j] + arr[k];
                     if (sum <= M) {  //합이 m보다 작으면 갱신할 수 있는지 확인
